@@ -32,7 +32,7 @@ $("#search").on("keyup", function(){
 for (i=0; i<a.length; i++){
 	//case sensitive
 	filter=input.value.toLowerCase();
- caption=a[i].firstChild.getAttribute("alt").toLoweCase();
+ caption=a[i].firstChild.getAttribute("alt").toLowerCase();
  //condition
 	if (caption.indexOf(filter)>-1){
 		//conditional statement
